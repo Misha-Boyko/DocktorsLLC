@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html>
+      <head>
+      <meta charset= "UTF-8">
+      <title> Title XD </title>
+  </head>
+	<header> Home &nbsp;&nbsp; Services &nbsp;&nbsp;&nbsp; Our Work	</header>
+	<img src = "Flyer.png" alt="Flyer">
+  <body style="font-size:80px">
+    <br>
+    Docktors LLC. 
+  </body>
+
+	<p>Find our Socials Down below! </p> 
+	<a href="https://www.instagram.com/waylanddocktors/" class="button"> <img src = "InstagramLogo.png"> </a>
+	
+	<input id="waylanddocks@gmail.com" type="text"/>
+	<button onclick = "myFunction()"> <img src = "GmailLogo.png"> </button>
+	function myFunction() {
+ 	/* Get the text field */
+ 	 var copyText = "waylanddocks@gmail.com";
+
+  	/* Select the text field */
+ 	 copyText.select();
+ 	 copyText.setSelectionRange(0, 99999); /* For mobile devices */
+		
+	/* Copy the text inside the text field */
+	  document.execCommand("copy");
+
+ 	/* Alert the copied text */
+	  alert("Copied the text: " + copyText.value);
+	}
+</html>
